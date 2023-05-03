@@ -1,3 +1,3 @@
-### FOR : [TNT](https://t.me/is_tnt) ###
+### FOR : [Black](https://t.me/a_t_9) ###
 
-![TNT](https://telegra.ph/file/4992d6e018a251fee31b1.jpg)
+![black](https://i.postimg.cc/XqtGTwKy/IMG-2023cc/XqtGTwKy/IMG-20230430-113036-720.jpg)
