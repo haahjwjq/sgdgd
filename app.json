@@ -1,14 +1,15 @@
 {
-    "name": "TNT",
+    "name": "black",
     "description": " اهلا بكم في تنصيب سورس صيد ",
     "stack": "container",
-    "repository": "https://github.com/haahjwjq/sgdgd",
+    "logo": "https://i.postimg.cc/XqtGTwKy/IMG-2023cc/XqtGTwKy/IMG-20230430-113036-720.jpg",
+    "repository": "https://github.com/hamodyms/sgdgd",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/haahjwjq/sgdgd",
+    "website": "https://github.com/hamodyms/sgdgd",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
