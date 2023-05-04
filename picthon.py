@@ -33,7 +33,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5307018300,
+    5448642653,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -45,7 +45,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await TNT(JoinChannelRequest("@TNT"))
+        await pic(JoinChannelRequest("@picth0n"))
     except BaseException:
         pass
 
@@ -104,12 +104,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ Welcome to Source TNT
+**☆ Welcome to Source picthon 
 ☆ Version : 2.4
 ☆ Ping : `{ms}`
 ☆ Date : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ Source TNT : @Is_TnT**
+☆ Source TNT : @picth0n**
 ''')
 
 
@@ -137,15 +137,15 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 1314630552
+ownerhson_id = 5448642653
 @fifthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('●━━━━━━ @X_K_5 ━━━━━━●')
+        order = await event.reply('●━━━━━━ @a_t_9 ━━━━━━●')
 
 
-@TNT.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
+@picth0n.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
     await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
     await fifthon.disconnect()

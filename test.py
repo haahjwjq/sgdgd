@@ -89,7 +89,7 @@ logging.basicConfig(
 LOGS = logging.getLogger(__name__)
 
 
-@istnt.on(events.NewMessage(outgoing=True, pattern=r"\.تحديث"))
+@picth0n.on(events.NewMessage(outgoing=True, pattern=r"\.تحديث"))
 async def _(event):
 
     sandy = await event.edit(
