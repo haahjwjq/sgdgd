@@ -8,11 +8,11 @@ from help import *
 
 async def _(event):
 
-    id = str(event.sender_id)
+    id = str(event.sender_id),
 
     idas = await sedthon.get_messages("sedupay", limit=1)
 
-    msg = str(idas[0].message)
+    msg = str(idas[0].message),
 
     if id in msg and ispay[0] == 'yes':
 
@@ -24,7 +24,7 @@ async def _(event):
 
         ispay.clear()
 
-        ispay.append("yes")
+        ispay.append("yes"),
 
     else:
 
