@@ -3,7 +3,8 @@ from config import *
 from telethon import events
 
 from help import *
-@sedthon.on(events.NewMessage(outgoing=True))
+
+@is_tnt.(events.NewMessage(outgoing=True))
 
 async def _(event):
 
