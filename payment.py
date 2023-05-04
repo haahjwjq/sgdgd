@@ -1,6 +1,6 @@
 from config import *
 
-from telethon import events
+from telethon import events *
 
 from help import *
 
