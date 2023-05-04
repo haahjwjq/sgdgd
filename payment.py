@@ -4,7 +4,7 @@ from telethon import events *
 
 from help import *
 
-@is_tnt.(events.NewMessage(outgoing=True))
+.(events.NewMessage(outgoing=True))
 
 async def _(event):
 
